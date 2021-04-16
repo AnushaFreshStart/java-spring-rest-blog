@@ -262,7 +262,8 @@ public class Module2_Tests {
         boolean postsEqual = false;
         for (int i = 0; i< posts.size(); i++) {
             try {
-                if (checkPostsEqual(posts.get(i), postsSaved.get(i))) //posts.get(i).equals(postsSaved.get(i)))
+                if (checkPostsEqual(posts.get(i), postsSaved.get(i)))
+                    //posts.get(i).equals(postsSaved.get(i)))
                     postsEqual = true;
                 else
                     postsEqual = false;
